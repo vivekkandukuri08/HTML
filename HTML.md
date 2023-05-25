@@ -149,86 +149,86 @@ Despite these limitations, HTML remains an integral part of web development and 
             padding-top: 20px;
            position: relative;
            text-align: center;
-   white-space: nowrap;
- }
- .tree ul::before {
-   content: '';
-   position: absolute;
-   top: 0;
-   bottom: 0;
-   left: 50%;
-   border-left: 1px solid #ccc;
- }
- .tree li {
-   display: inline-block;
-   vertical-align: top;
-   text-align: center;
-   list-style-type: none;
-   position: relative;
-   padding: 20px 5px 0 5px;
- }
-  .tree li::before, .tree li::after {
-   content: '';
-   position: absolute;
-   top: 0;
-   right: 50%;
-   border-top: 1px solid #ccc;
-   width: 50%;
-   height: 20px;
- }
- .tree li::after {
-   right: auto;
-   left: 50%;
-   border-left: 1px solid #ccc;
- }
- .tree li:only-child::after, .tree li:only-child::before {
-   display: none;
- }
- .tree li:only-child {
-   padding-top: 0;
- }
- .tree li:first-child::before, .tree li:last-child::after {
-  border: 0 none;
- }
- .tree li:last-child::before {
-  border-right: 1px solid #ccc;
-  border-radius: 0 5px 0 0;
- }
- .tree li:first-child::after {
-  border-radius: 5px 0 0 0;
- }
- .tree ul ul::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 50%;
-  border-left: 1px solid #ccc;
-  width: 0;
-  height: 20px;
- }
- .tree li a {
-  border: 1px solid #ccc;
-  padding: 5px 10px;
-  text-decoration: none;
-  color: #666;
-  font-family: arial, verdana, tahoma;
-  font-size: 20px;
-  display: inline-block;
-  background-color: lightblue;
-  border-radius: 7px;
- }
- .tree h1 {
-  text-align: center;
-  font-size: 24px;
-  margin-bottom: 20px;
- }
+       white-space: nowrap;
+    }
+     .tree ul::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      border-left: 1px solid #ccc;
+    }
+     .tree li {
+      display: inline-block;
+      vertical-align: top;
+      text-align: center;
+      list-style-type: none;
+      position: relative;
+      padding: 20px 5px 0 5px;
+    }
+     .tree li::before, .tree li::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 50%;
+      border-top: 1px solid #ccc;
+      width: 50%;
+      height: 20px;
+    }
+     .tree li::after {
+     right: auto;
+     left: 50%;
+     border-left: 1px solid #ccc;
+    }
+       .tree li:only-child::after, .tree li:only-child::before {
+        display: none;
+    }
+       .tree li:only-child {
+        padding-top: 0;
+    }
+       .tree li:first-child::before, .tree li:last-child::after {
+        border: 0 none;
+    }
+      .tree li:last-child::before {
+       border-right: 1px solid #ccc;
+       border-radius: 0 5px 0 0;
+    }
+       .tree li:first-child::after {
+       border-radius: 5px 0 0 0;
+    }
+      .tree ul ul::before {
+       content: '';
+       position: absolute;
+       top: 0;
+       left: 50%;
+       border-left: 1px solid #ccc;
+       width: 0;
+       height: 20px;
+    }
+       .tree li a {
+        border: 1px solid #ccc;
+        padding: 5px 10px;
+        text-decoration: none;
+        color: #666;
+        font-family: arial, verdana, tahoma;
+        font-size: 20px;
+        display: inline-block;
+        background-color: lightblue;
+        border-radius: 7px;
+    }
+       .tree h1 {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
          </style>
          </head>
          <body>
          <div class="tree">
- <h1>Kandukuri family</h1>
- <ul>
-  <li>
+    <h1>Kandukuri family</h1>
+    <ul>
+     <li>
     <a href="#">K.V.R.Babu (Father)</a>
     <ul>
       <li>
@@ -238,7 +238,7 @@ Despite these limitations, HTML remains an integral part of web development and 
         <a href="#">Vivek (Child 2)</a>
       </li>
     </ul>
-  </li>
+    </li>
              <li>
             <a href="#">Pushpalatha (Mother)</a>
          </li>
